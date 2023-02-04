@@ -1,0 +1,17 @@
+# This file defines details needed for this specific
+# test execution. Fill in your details, remove
+# the word "template" from the file name, and include
+# when running job file with the --configuration option:
+# pyats run job test_job.py --pyats-configuration pyats.conf
+
+[custom_webex]
+token = <WEBEX_BOT_TOKEN>
+space = <WEBEX_SPACE_ID>
+
+[TE]
+bearer = <THOUSANDEYES_TOKEN>
+
+[DNAC]
+address = <DNAC_ADDRESS_WITHOUT_HTTPS://>
+username = <DNAC_USERNAME>
+password = <DNAC_PASSWORD>t

@@ -1,0 +1,13 @@
+# Notification plugin example for pyATS
+# -------
+# This file defines where the notification plugin can be found.
+# If you have more plugins, you can define them all here.
+# Either include this in the root of you pyATS, or inclue it
+#   when running job file with the --configuration option:
+#   pyats run job test_job.py --configuration easypy_config.yaml
+
+plugins:
+    CustomWebexPlugin: # The name of the plugin
+        enabled: True
+        module: notification_plugin # The module on which the plugin is defined
+        order: 1.0 # If multiple plugins, defines the order

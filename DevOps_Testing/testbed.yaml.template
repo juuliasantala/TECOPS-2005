@@ -1,0 +1,19 @@
+---
+
+testbed:
+  name: A hidden Gem
+
+devices:
+  <YOUR HOSTNAME>:
+    connections:
+      cli:
+        ip: <YOUR IP>
+        protocol: ssh
+    credentials:
+      default:
+        password: <YOUR PASSWORD>
+        username: <YOUR USERNAME>
+      enable:
+        password: <YOUR PASSWORD>
+    os: iosxe
+    type: iosxe
