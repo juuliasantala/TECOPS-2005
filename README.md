@@ -2,7 +2,7 @@
 
 This Repository includes supplemental material for the Cisco Live EMEA 2023 Technical Seminar TECOPS-2005.
 
-1. Templates to support you in Design Thinking activities (DesignThinking_Examples)
+1. Templates to support you in Design Thinking activities (DesignThinking_Templates)
 2. Automated testing scipts (DevOps_Testing)
 3. Example of a Webhook receiver (DevOps_Webhook)
 4. Example of a simple Widget (DevOps_Widget)
